@@ -1,0 +1,3 @@
+- [x] Update models.py: Import timezone, change datetime.utcnow defaults to lambda with datetime.now(timezone.utc), update to_dict to use isoformat
+- [x] Update app.py: Remove Message class, import from models, replace get_or_404 with db.session.get and abort
+- [x] Run pytest to verify fixes
